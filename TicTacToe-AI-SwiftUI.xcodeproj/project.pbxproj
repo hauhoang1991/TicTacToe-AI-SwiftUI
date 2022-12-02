@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		472B71FD293A76B4002652C0 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472B71FC293A76B4002652C0 /* GameViewModel.swift */; };
 		476F185F2939A9AF000245BB /* TicTacToe_AI_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476F185E2939A9AF000245BB /* TicTacToe_AI_SwiftUIApp.swift */; };
 		476F18612939A9AF000245BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476F18602939A9AF000245BB /* ContentView.swift */; };
 		476F18632939A9B2000245BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476F18622939A9B2000245BB /* Assets.xcassets */; };
 		476F18662939A9B2000245BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476F18652939A9B2000245BB /* Preview Assets.xcassets */; };
+		476F18712939B8CC000245BB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476F18702939B8CC000245BB /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		472B71FC293A76B4002652C0 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		476F185B2939A9AF000245BB /* TicTacToe-AI-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TicTacToe-AI-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		476F185E2939A9AF000245BB /* TicTacToe_AI_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe_AI_SwiftUIApp.swift; sourceTree = "<group>"; };
 		476F18602939A9AF000245BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		476F18622939A9B2000245BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		476F18652939A9B2000245BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		476F18702939B8CC000245BB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,11 @@
 		476F185D2939A9AF000245BB /* TicTacToe-AI-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				476F186F2939AA24000245BB /* ViewModel */,
+				476F186E2939A9F8000245BB /* Controller */,
+				476F186D2939A9ED000245BB /* View */,
+				476F186C2939A9E6000245BB /* Model */,
 				476F185E2939A9AF000245BB /* TicTacToe_AI_SwiftUIApp.swift */,
-				476F18602939A9AF000245BB /* ContentView.swift */,
 				476F18622939A9B2000245BB /* Assets.xcassets */,
 				476F18642939A9B2000245BB /* Preview Content */,
 			);
@@ -65,6 +72,38 @@
 				476F18652939A9B2000245BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		476F186C2939A9E6000245BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				476F18702939B8CC000245BB /* Alert.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		476F186D2939A9ED000245BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				476F18602939A9AF000245BB /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		476F186E2939A9F8000245BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		476F186F2939AA24000245BB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				472B71FC293A76B4002652C0 /* GameViewModel.swift */,
+			);
+			name = ViewModel;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472B71FD293A76B4002652C0 /* GameViewModel.swift in Sources */,
+				476F18712939B8CC000245BB /* Alert.swift in Sources */,
 				476F18612939A9AF000245BB /* ContentView.swift in Sources */,
 				476F185F2939A9AF000245BB /* TicTacToe_AI_SwiftUIApp.swift in Sources */,
 			);
